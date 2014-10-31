@@ -120,7 +120,7 @@ uint8_t display4DigitNumber(uint8_t *finalValue, uint8_t (*I2C_PCF8574)(uint8_t 
 	for(loopAux_1 = 0, dispIndex; loopAux_1 < 4 ; loopAux_1++, dispIndex = dispIndex*2)
 	{
 		
-		I2C_PCF8574(PCF8574ADR, dispIndex); // Turns on the desired display.
+		I2C_PCF8574(PCF8574ADR, dispIndex); // Turns on the desired digit.
 		
 		if(dispIndex == 2 || dispIndex == 32)
 		{
