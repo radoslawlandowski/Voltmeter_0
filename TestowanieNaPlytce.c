@@ -17,7 +17,7 @@
 #define BUTTON_TWO 0b10000000
 #define BUTTON_THREE 0b01000000 
 							    
-#define LED_0 0b00010000 //PD4 LED's for indicating which reading is being shown on the display
+#define LED_0 0b00010000 //PD4 LEDs for indicating which reading is being shown on the display
 #define LED_1 0b00100000 //PD5
 #define LED_2 0b01000000 //PB6  
 #define LED_3 0b10000000 //PB7
