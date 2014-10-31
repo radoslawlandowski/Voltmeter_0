@@ -2,7 +2,13 @@
 The video presenting the device: http://youtu.be/OOcb_iuhQiU
 
 Things worth taking into consideration:
-The main purpose of this project WAS NOT to make a precision measurement equipment but rather face the problems of a multidevice I2C communication, data synchronisation and creating a proper PCB layout. The voltmeter is used for tracking rough changes in voltage, analysing dependencies between them and as a learning platform. Also this project allowed me to gather most of the knowledge about electronics and microcontroller programming that I've gained so far and sum it up.
+The main purpose of this project WAS NOT to make a precision measurement equipment 
+but rather face the problems of a multidevice I2C communication, 
+data synchronisation and creating a proper PCB layout. 
+The voltmeter is used for tracking rough changes in voltage, 
+analysing dependencies between them and as a learning platform. 
+Also this project allowed me to gather most of the knowledge about 
+electronics and microcontroller programming that I've gained so far and sum it up.
 
 Features:
 # Atmega8, external ADC and IO port expander communicating   via I2C.
