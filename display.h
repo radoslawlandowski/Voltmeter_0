@@ -45,7 +45,7 @@ uint8_t displayChar(char charToDisplay, uint8_t (*I2C_PCF8574)(uint8_t deviceAdr
 	   changed regarding to the pinout of 7-seg. display.                                                                   */
 
 {	
-		I2C_PCF8574(PCF8574ADR, dispIndex); // Turns on the desired display.
+		I2C_PCF8574(PCF8574ADR, dispIndex); // Turns on the desired digit.
 		
 		switch(charToDisplay)
 		{
