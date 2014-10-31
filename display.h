@@ -122,7 +122,7 @@ uint8_t display4DigitNumber(uint8_t *finalValue, uint8_t (*I2C_PCF8574)(uint8_t 
 		
 		I2C_PCF8574(PCF8574ADR, dispIndex); // Turns on the desired digit.
 		
-		if(dispIndex == 2 || dispIndex == 32)
+		if(dispIndex == 2 || dispIndex == 32) // Turns on the decimal point
 		{
 			PORTB = (~( _BV(PB1)) & 0b00111111) | (PORTB & 0b11000000);
 			_delay_us(500);
